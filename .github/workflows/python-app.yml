@@ -35,4 +35,4 @@ jobs:
     - name: Test with unittest
       run: |
         bash -c "export PYTHONPATH=calc"
-        unittest
+        python -m unittest
